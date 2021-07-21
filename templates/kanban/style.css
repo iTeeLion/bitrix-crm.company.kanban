@@ -1,0 +1,46 @@
+.crm-kanban-grid {
+    display: flex;
+    width: 100%;
+}
+
+.crm-kanban-column {
+    width: auto;
+    min-width: 300px;
+    border-right: 1px dotted #d7dfe3;
+}
+
+.crm-kanban-column-items {
+    overflow: scroll;
+    height: 70vh;
+}
+
+.crm-kanban-column-badge {
+    /*color: #fff;*/
+    background: #00b7e4;
+    font-weight: bold;
+    margin: 0 5px 5px 5px;
+    padding: 10px;
+}
+
+.crm-kanban-row {
+    padding: 3px 5px;
+}
+
+.crm-kanban-card {
+    background-color: #fff;
+    padding: 10px;
+    z-index: 5;
+}
+
+.crm-kanban-card-placeholder {
+    margin: 5px;
+    height: 100px;
+    border: 1px dotted;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.crm-kanban-toolbar {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
